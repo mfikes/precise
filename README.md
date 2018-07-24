@@ -13,9 +13,16 @@ Tagged literals for [exact](https://github.com/gfredericks/exact).
         precise {:mvn/version "0.1.0"}}}
 ```                 
 
-Start a REPL using
+Start a ClojureScript REPL using
+
 ```
-clj -i @precise/tagged_literals.cljc -m cljs.main -re node -r
+clj -i @precise/tagged_literals.cljc -m cljs.main
+```
+
+or a Lumo REPL using
+
+```
+lumo -c `clojure -Spath`
 ```
 
 Require the tagged literals and exact namespace:
