@@ -2,14 +2,15 @@
 
 Tagged literals for [exact](https://github.com/gfredericks/exact).
 
+[![Clojars Project](https://img.shields.io/clojars/v/precise.svg)](https://clojars.org/precise)
+
 ## Usage
 
 `deps.edn`:
 
 ```clojure
 {:deps {org.clojure/clojurescript {:mvn/version "1.10.339"}
-        github-mfikes/precise {:git/url "https://github.com/mfikes/precise"
-                               :sha "19587e7d26cf367356a2c0615015b2de428f4bf2"}}}
+        precise {:mvn/version "0.1.0"}}}
 ```                 
 
 Start a REPL using
