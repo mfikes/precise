@@ -25,7 +25,13 @@ or a Lumo REPL using
 lumo -c `clojure -Spath`
 ```
 
-Require the tagged literals and exact namespace:
+or even a Clojure REPL (where the tagged literals are read, but not printed):
+
+```
+clj
+```
+
+Require the tagged literals and exact namespaces:
 
 ```
 cljs.user=> (require 'precise.tagged-literals 
