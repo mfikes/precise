@@ -49,7 +49,7 @@ cljs.user=> (e/numerator *1)
 #exact/integer "2"
 ```
 
-> Note that, even though the `#exact/integer` tagged literal works in terms of an arbitrary-length string of base-10 digits, the underlying data is a `goog.math.Integer` instance, which is efficiently implemented using an array of 32-bit signed pieces. Similarly, `#exact/ratio` affords a string-based literal representation of an implementation that involves a pair of such integers.
+> Note that, even though the `#exact/integer` tagged literal works in terms of an arbitrary-length string of base-10 digits, in ClojureScript the underlying data is a `goog.math.Integer` instance, which is efficiently implemented using an array of 32-bit signed pieces. Similarly, `#exact/ratio` affords a string-based literal representation of an implementation that involves a pair of such integers.
 
 Newtonian square root [example](https://github.com/gfredericks/exact/blob/master/README.md#usage):
 
