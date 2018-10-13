@@ -19,6 +19,12 @@ Start a ClojureScript REPL using
 clj -i @precise/tagged_literals.cljc -m cljs.main
 ```
 
+or a Planck REPL using
+
+```
+plk
+```
+
 or a Lumo REPL using
 
 ```
